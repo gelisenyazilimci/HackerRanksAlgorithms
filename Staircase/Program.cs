@@ -49,4 +49,20 @@ class Solution
 
         Result.staircase(n);
     }
+    
+    
+    public static bool SimpleEvens(int num) {
+
+        // code goes here
+        string numStr = num.ToString();
+        foreach (var digit in numStr)
+        {
+            if (!((digit - '0') % 2 ).Equals(0))
+            {
+                return 
+            }
+        }
+        return Error;
+
+    }
 }
